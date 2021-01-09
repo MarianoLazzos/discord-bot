@@ -1,11 +1,7 @@
 module.exports = {
-    name: "true",
-    description: "true",
+    name: "!kick",
+    description: "kick",
     execute(msg, args){
-        if(msg == "true"){
-            msg.reply("false");
-        }else if(msg == "false"){
-            msg.reply("ture");
-        };
+        msg.reply("Nope");
     },
 }
